@@ -46,6 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormPodio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPodio.Designer.cs">
+      <DependentUpon>FormPodio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Risorsa.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,6 +64,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormPodio.resx">
+      <DependentUpon>FormPodio.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -65,6 +75,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +89,48 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nord_normale_normale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nord_turno_normale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Est_normale_normale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Est_turno_normale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sud_normale_normale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sud_turno_normale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ovest_normale_normale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ovest_turno_normale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dado_1_norm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dado_2_norm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dado_3_norm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dado_4_norm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dado_5_norm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dado_6_norm.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

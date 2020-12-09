@@ -117,47 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Est_turno_normale" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Est_turno_normale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ovest_turno_normale" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ovest_turno_normale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Sud_turno_normale" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sud_turno_normale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Est_normale_normale" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Est_normale_normale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ovest_normale_normale" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ovest_normale_normale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Nord_normale_normale" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Nord_normale_normale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Sud_normale_normale" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sud_normale_normale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Nord_turno_normale" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Nord_turno_normale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Dado_1_norm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Dado_1_norm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Dado_2_norm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Dado_2_norm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Dado_3_norm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Dado_3_norm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Dado_4_norm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Dado_4_norm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Dado_5_norm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Dado_5_norm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Dado_6_norm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Dado_6_norm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>
