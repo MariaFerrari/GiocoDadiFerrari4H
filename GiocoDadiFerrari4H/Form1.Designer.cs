@@ -1,6 +1,6 @@
 ﻿namespace GiocoDadiFerrari4H
 {
-    partial class FormNormale
+    partial class FormNormale1
     {
         /// <summary>
         /// Variabile di progettazione necessaria.
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormNormale1));
             this.tb_class_turno = new System.Windows.Forms.TextBox();
             this.tb_class_partita = new System.Windows.Forms.TextBox();
             this.bgw_nord = new System.ComponentModel.BackgroundWorker();
@@ -36,21 +37,25 @@
             this.bgw_ovest = new System.ComponentModel.BackgroundWorker();
             this.btn_stop = new System.Windows.Forms.Button();
             this.tb_giro = new System.Windows.Forms.TextBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.gb_temi = new System.Windows.Forms.GroupBox();
             this.btn_default = new System.Windows.Forms.Button();
             this.btn_lotr = new System.Windows.Forms.Button();
             this.btn_hp = new System.Windows.Forms.Button();
             this.btn_pirati = new System.Windows.Forms.Button();
-            this.pb_d2_6 = new System.Windows.Forms.PictureBox();
-            this.pb_d2_5 = new System.Windows.Forms.PictureBox();
-            this.pb_d2_4 = new System.Windows.Forms.PictureBox();
-            this.pb_d2_3 = new System.Windows.Forms.PictureBox();
-            this.pb_d2_2 = new System.Windows.Forms.PictureBox();
-            this.pb_d1_6 = new System.Windows.Forms.PictureBox();
-            this.pb_d1_5 = new System.Windows.Forms.PictureBox();
-            this.pb_d1_4 = new System.Windows.Forms.PictureBox();
-            this.pb_d1_3 = new System.Windows.Forms.PictureBox();
-            this.pb_d1_2 = new System.Windows.Forms.PictureBox();
+            this.btn_inizio = new System.Windows.Forms.Button();
+            this.tb_giro_lotr = new System.Windows.Forms.TextBox();
+            this.tb_giro_hp = new System.Windows.Forms.TextBox();
+            this.tb_giro_pirati = new System.Windows.Forms.TextBox();
+            this.tb_class_turno_lotr = new System.Windows.Forms.TextBox();
+            this.tb_class_turno_hp = new System.Windows.Forms.TextBox();
+            this.tb_class_turno_pirati = new System.Windows.Forms.TextBox();
+            this.tb_class_partita_lotr = new System.Windows.Forms.TextBox();
+            this.tb_class_partita_hp = new System.Windows.Forms.TextBox();
+            this.tb_class_partita_pirati = new System.Windows.Forms.TextBox();
+            this.gb_class = new System.Windows.Forms.GroupBox();
+            this.gb_giro = new System.Windows.Forms.GroupBox();
+            this.pb_d2 = new System.Windows.Forms.PictureBox();
+            this.pb_d1 = new System.Windows.Forms.PictureBox();
             this.pb_ovest_turno = new System.Windows.Forms.PictureBox();
             this.pb_sud_turno = new System.Windows.Forms.PictureBox();
             this.pb_est_turno = new System.Windows.Forms.PictureBox();
@@ -59,20 +64,11 @@
             this.pb_sud = new System.Windows.Forms.PictureBox();
             this.pb_ovest = new System.Windows.Forms.PictureBox();
             this.pb_est = new System.Windows.Forms.PictureBox();
-            this.pb_d1_1 = new System.Windows.Forms.PictureBox();
-            this.pb_d2_1 = new System.Windows.Forms.PictureBox();
-            this.tb_giocata = new System.Windows.Forms.TextBox();
-            this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_d2_6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_d2_5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_d2_4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_d2_3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_d2_2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_d1_6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_d1_5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_d1_4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_d1_3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_d1_2)).BeginInit();
+            this.gb_temi.SuspendLayout();
+            this.gb_class.SuspendLayout();
+            this.gb_giro.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_d2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_d1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_ovest_turno)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_sud_turno)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_est_turno)).BeginInit();
@@ -81,24 +77,22 @@
             ((System.ComponentModel.ISupportInitialize)(this.pb_sud)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_ovest)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_est)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_d1_1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_d2_1)).BeginInit();
             this.SuspendLayout();
             // 
             // tb_class_turno
             // 
-            this.tb_class_turno.Location = new System.Drawing.Point(391, 12);
+            this.tb_class_turno.Location = new System.Drawing.Point(7, 19);
             this.tb_class_turno.Multiline = true;
             this.tb_class_turno.Name = "tb_class_turno";
-            this.tb_class_turno.Size = new System.Drawing.Size(76, 98);
+            this.tb_class_turno.Size = new System.Drawing.Size(112, 98);
             this.tb_class_turno.TabIndex = 5;
             // 
             // tb_class_partita
             // 
-            this.tb_class_partita.Location = new System.Drawing.Point(475, 12);
+            this.tb_class_partita.Location = new System.Drawing.Point(124, 19);
             this.tb_class_partita.Multiline = true;
             this.tb_class_partita.Name = "tb_class_partita";
-            this.tb_class_partita.Size = new System.Drawing.Size(76, 98);
+            this.tb_class_partita.Size = new System.Drawing.Size(112, 98);
             this.tb_class_partita.TabIndex = 6;
             // 
             // bgw_nord
@@ -135,7 +129,7 @@
             // 
             // btn_stop
             // 
-            this.btn_stop.Location = new System.Drawing.Point(398, 212);
+            this.btn_stop.Location = new System.Drawing.Point(532, 236);
             this.btn_stop.Name = "btn_stop";
             this.btn_stop.Size = new System.Drawing.Size(75, 23);
             this.btn_stop.TabIndex = 28;
@@ -145,30 +139,30 @@
             // 
             // tb_giro
             // 
-            this.tb_giro.Location = new System.Drawing.Point(391, 116);
+            this.tb_giro.Location = new System.Drawing.Point(6, 18);
             this.tb_giro.Multiline = true;
             this.tb_giro.Name = "tb_giro";
-            this.tb_giro.Size = new System.Drawing.Size(160, 70);
+            this.tb_giro.Size = new System.Drawing.Size(230, 70);
             this.tb_giro.TabIndex = 29;
             // 
-            // groupBox1
+            // gb_temi
             // 
-            this.groupBox1.Controls.Add(this.btn_default);
-            this.groupBox1.Controls.Add(this.btn_lotr);
-            this.groupBox1.Controls.Add(this.btn_hp);
-            this.groupBox1.Controls.Add(this.btn_pirati);
-            this.groupBox1.Location = new System.Drawing.Point(391, 256);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(216, 85);
-            this.groupBox1.TabIndex = 30;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Temi";
+            this.gb_temi.Controls.Add(this.btn_default);
+            this.gb_temi.Controls.Add(this.btn_lotr);
+            this.gb_temi.Controls.Add(this.btn_hp);
+            this.gb_temi.Controls.Add(this.btn_pirati);
+            this.gb_temi.Location = new System.Drawing.Point(447, 267);
+            this.gb_temi.Name = "gb_temi";
+            this.gb_temi.Size = new System.Drawing.Size(230, 85);
+            this.gb_temi.TabIndex = 30;
+            this.gb_temi.TabStop = false;
+            this.gb_temi.Text = "Temi";
             // 
             // btn_default
             // 
             this.btn_default.Location = new System.Drawing.Point(7, 19);
             this.btn_default.Name = "btn_default";
-            this.btn_default.Size = new System.Drawing.Size(75, 23);
+            this.btn_default.Size = new System.Drawing.Size(93, 23);
             this.btn_default.TabIndex = 31;
             this.btn_default.Text = "Default";
             this.btn_default.UseVisualStyleBackColor = true;
@@ -176,7 +170,7 @@
             // 
             // btn_lotr
             // 
-            this.btn_lotr.Location = new System.Drawing.Point(88, 20);
+            this.btn_lotr.Location = new System.Drawing.Point(106, 20);
             this.btn_lotr.Name = "btn_lotr";
             this.btn_lotr.Size = new System.Drawing.Size(118, 23);
             this.btn_lotr.TabIndex = 3;
@@ -188,7 +182,7 @@
             // 
             this.btn_hp.Location = new System.Drawing.Point(131, 49);
             this.btn_hp.Name = "btn_hp";
-            this.btn_hp.Size = new System.Drawing.Size(75, 23);
+            this.btn_hp.Size = new System.Drawing.Size(93, 23);
             this.btn_hp.TabIndex = 2;
             this.btn_hp.Text = "Harry Potter";
             this.btn_hp.UseVisualStyleBackColor = true;
@@ -204,112 +198,144 @@
             this.btn_pirati.UseVisualStyleBackColor = true;
             this.btn_pirati.Click += new System.EventHandler(this.btn_pirati_Click);
             // 
-            // pb_d2_6
+            // btn_inizio
             // 
-            this.pb_d2_6.Image = global::GiocoDadiFerrari4H.Properties.Resources.Dado_6_norm;
-            this.pb_d2_6.Location = new System.Drawing.Point(176, 200);
-            this.pb_d2_6.Name = "pb_d2_6";
-            this.pb_d2_6.Size = new System.Drawing.Size(47, 50);
-            this.pb_d2_6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pb_d2_6.TabIndex = 27;
-            this.pb_d2_6.TabStop = false;
+            this.btn_inizio.Location = new System.Drawing.Point(532, 236);
+            this.btn_inizio.Name = "btn_inizio";
+            this.btn_inizio.Size = new System.Drawing.Size(75, 23);
+            this.btn_inizio.TabIndex = 32;
+            this.btn_inizio.Text = "Inizio";
+            this.btn_inizio.UseVisualStyleBackColor = true;
+            this.btn_inizio.Click += new System.EventHandler(this.btn_inizio_Click);
             // 
-            // pb_d2_5
+            // tb_giro_lotr
             // 
-            this.pb_d2_5.Image = global::GiocoDadiFerrari4H.Properties.Resources.Dado_5_norm;
-            this.pb_d2_5.Location = new System.Drawing.Point(176, 200);
-            this.pb_d2_5.Name = "pb_d2_5";
-            this.pb_d2_5.Size = new System.Drawing.Size(47, 50);
-            this.pb_d2_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pb_d2_5.TabIndex = 26;
-            this.pb_d2_5.TabStop = false;
+            this.tb_giro_lotr.Location = new System.Drawing.Point(6, 18);
+            this.tb_giro_lotr.Multiline = true;
+            this.tb_giro_lotr.Name = "tb_giro_lotr";
+            this.tb_giro_lotr.Size = new System.Drawing.Size(230, 70);
+            this.tb_giro_lotr.TabIndex = 43;
             // 
-            // pb_d2_4
+            // tb_giro_hp
             // 
-            this.pb_d2_4.Image = global::GiocoDadiFerrari4H.Properties.Resources.Dado_4_norm;
-            this.pb_d2_4.Location = new System.Drawing.Point(176, 200);
-            this.pb_d2_4.Name = "pb_d2_4";
-            this.pb_d2_4.Size = new System.Drawing.Size(47, 50);
-            this.pb_d2_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pb_d2_4.TabIndex = 25;
-            this.pb_d2_4.TabStop = false;
+            this.tb_giro_hp.Location = new System.Drawing.Point(6, 18);
+            this.tb_giro_hp.Multiline = true;
+            this.tb_giro_hp.Name = "tb_giro_hp";
+            this.tb_giro_hp.Size = new System.Drawing.Size(230, 70);
+            this.tb_giro_hp.TabIndex = 44;
             // 
-            // pb_d2_3
+            // tb_giro_pirati
             // 
-            this.pb_d2_3.Image = global::GiocoDadiFerrari4H.Properties.Resources.Dado_3_norm;
-            this.pb_d2_3.Location = new System.Drawing.Point(176, 200);
-            this.pb_d2_3.Name = "pb_d2_3";
-            this.pb_d2_3.Size = new System.Drawing.Size(47, 50);
-            this.pb_d2_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pb_d2_3.TabIndex = 24;
-            this.pb_d2_3.TabStop = false;
+            this.tb_giro_pirati.Location = new System.Drawing.Point(6, 18);
+            this.tb_giro_pirati.Multiline = true;
+            this.tb_giro_pirati.Name = "tb_giro_pirati";
+            this.tb_giro_pirati.Size = new System.Drawing.Size(230, 70);
+            this.tb_giro_pirati.TabIndex = 45;
             // 
-            // pb_d2_2
+            // tb_class_turno_lotr
             // 
-            this.pb_d2_2.Image = global::GiocoDadiFerrari4H.Properties.Resources.Dado_2_norm;
-            this.pb_d2_2.Location = new System.Drawing.Point(176, 200);
-            this.pb_d2_2.Name = "pb_d2_2";
-            this.pb_d2_2.Size = new System.Drawing.Size(47, 50);
-            this.pb_d2_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pb_d2_2.TabIndex = 23;
-            this.pb_d2_2.TabStop = false;
+            this.tb_class_turno_lotr.Location = new System.Drawing.Point(7, 19);
+            this.tb_class_turno_lotr.Multiline = true;
+            this.tb_class_turno_lotr.Name = "tb_class_turno_lotr";
+            this.tb_class_turno_lotr.Size = new System.Drawing.Size(112, 98);
+            this.tb_class_turno_lotr.TabIndex = 46;
             // 
-            // pb_d1_6
+            // tb_class_turno_hp
             // 
-            this.pb_d1_6.Image = global::GiocoDadiFerrari4H.Properties.Resources.Dado_6_norm;
-            this.pb_d1_6.Location = new System.Drawing.Point(123, 150);
-            this.pb_d1_6.Name = "pb_d1_6";
-            this.pb_d1_6.Size = new System.Drawing.Size(47, 48);
-            this.pb_d1_6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pb_d1_6.TabIndex = 22;
-            this.pb_d1_6.TabStop = false;
-            this.pb_d1_6.Click += new System.EventHandler(this.pictureBox6_Click);
+            this.tb_class_turno_hp.Location = new System.Drawing.Point(7, 19);
+            this.tb_class_turno_hp.Multiline = true;
+            this.tb_class_turno_hp.Name = "tb_class_turno_hp";
+            this.tb_class_turno_hp.Size = new System.Drawing.Size(112, 98);
+            this.tb_class_turno_hp.TabIndex = 47;
             // 
-            // pb_d1_5
+            // tb_class_turno_pirati
             // 
-            this.pb_d1_5.Image = global::GiocoDadiFerrari4H.Properties.Resources.Dado_5_norm;
-            this.pb_d1_5.Location = new System.Drawing.Point(123, 150);
-            this.pb_d1_5.Name = "pb_d1_5";
-            this.pb_d1_5.Size = new System.Drawing.Size(47, 48);
-            this.pb_d1_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pb_d1_5.TabIndex = 21;
-            this.pb_d1_5.TabStop = false;
+            this.tb_class_turno_pirati.Location = new System.Drawing.Point(7, 19);
+            this.tb_class_turno_pirati.Multiline = true;
+            this.tb_class_turno_pirati.Name = "tb_class_turno_pirati";
+            this.tb_class_turno_pirati.Size = new System.Drawing.Size(112, 98);
+            this.tb_class_turno_pirati.TabIndex = 48;
             // 
-            // pb_d1_4
+            // tb_class_partita_lotr
             // 
-            this.pb_d1_4.Image = global::GiocoDadiFerrari4H.Properties.Resources.Dado_4_norm;
-            this.pb_d1_4.Location = new System.Drawing.Point(123, 150);
-            this.pb_d1_4.Name = "pb_d1_4";
-            this.pb_d1_4.Size = new System.Drawing.Size(47, 48);
-            this.pb_d1_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pb_d1_4.TabIndex = 20;
-            this.pb_d1_4.TabStop = false;
+            this.tb_class_partita_lotr.Location = new System.Drawing.Point(124, 19);
+            this.tb_class_partita_lotr.Multiline = true;
+            this.tb_class_partita_lotr.Name = "tb_class_partita_lotr";
+            this.tb_class_partita_lotr.Size = new System.Drawing.Size(112, 98);
+            this.tb_class_partita_lotr.TabIndex = 49;
             // 
-            // pb_d1_3
+            // tb_class_partita_hp
             // 
-            this.pb_d1_3.Image = global::GiocoDadiFerrari4H.Properties.Resources.Dado_3_norm;
-            this.pb_d1_3.Location = new System.Drawing.Point(123, 150);
-            this.pb_d1_3.Name = "pb_d1_3";
-            this.pb_d1_3.Size = new System.Drawing.Size(47, 48);
-            this.pb_d1_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pb_d1_3.TabIndex = 19;
-            this.pb_d1_3.TabStop = false;
+            this.tb_class_partita_hp.Location = new System.Drawing.Point(124, 19);
+            this.tb_class_partita_hp.Multiline = true;
+            this.tb_class_partita_hp.Name = "tb_class_partita_hp";
+            this.tb_class_partita_hp.Size = new System.Drawing.Size(112, 98);
+            this.tb_class_partita_hp.TabIndex = 50;
             // 
-            // pb_d1_2
+            // tb_class_partita_pirati
             // 
-            this.pb_d1_2.Image = global::GiocoDadiFerrari4H.Properties.Resources.Dado_2_norm;
-            this.pb_d1_2.Location = new System.Drawing.Point(123, 150);
-            this.pb_d1_2.Name = "pb_d1_2";
-            this.pb_d1_2.Size = new System.Drawing.Size(47, 48);
-            this.pb_d1_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pb_d1_2.TabIndex = 18;
-            this.pb_d1_2.TabStop = false;
+            this.tb_class_partita_pirati.Location = new System.Drawing.Point(124, 19);
+            this.tb_class_partita_pirati.Multiline = true;
+            this.tb_class_partita_pirati.Name = "tb_class_partita_pirati";
+            this.tb_class_partita_pirati.Size = new System.Drawing.Size(112, 98);
+            this.tb_class_partita_pirati.TabIndex = 51;
+            // 
+            // gb_class
+            // 
+            this.gb_class.Controls.Add(this.tb_class_partita_pirati);
+            this.gb_class.Controls.Add(this.tb_class_turno);
+            this.gb_class.Controls.Add(this.tb_class_turno_lotr);
+            this.gb_class.Controls.Add(this.tb_class_turno_hp);
+            this.gb_class.Controls.Add(this.tb_class_partita_hp);
+            this.gb_class.Controls.Add(this.tb_class_turno_pirati);
+            this.gb_class.Controls.Add(this.tb_class_partita);
+            this.gb_class.Controls.Add(this.tb_class_partita_lotr);
+            this.gb_class.Location = new System.Drawing.Point(454, 5);
+            this.gb_class.Name = "gb_class";
+            this.gb_class.Size = new System.Drawing.Size(243, 124);
+            this.gb_class.TabIndex = 52;
+            this.gb_class.TabStop = false;
+            this.gb_class.Text = "Classifiche";
+            // 
+            // gb_giro
+            // 
+            this.gb_giro.BackColor = System.Drawing.SystemColors.Control;
+            this.gb_giro.Controls.Add(this.tb_giro);
+            this.gb_giro.Controls.Add(this.tb_giro_hp);
+            this.gb_giro.Controls.Add(this.tb_giro_pirati);
+            this.gb_giro.Controls.Add(this.tb_giro_lotr);
+            this.gb_giro.Location = new System.Drawing.Point(454, 136);
+            this.gb_giro.Name = "gb_giro";
+            this.gb_giro.Size = new System.Drawing.Size(243, 94);
+            this.gb_giro.TabIndex = 53;
+            this.gb_giro.TabStop = false;
+            this.gb_giro.Text = "Giro";
+            // 
+            // pb_d2
+            // 
+            this.pb_d2.Image = global::GiocoDadiFerrari4H.Properties.Resources.Dado_6_norm;
+            this.pb_d2.Location = new System.Drawing.Point(176, 180);
+            this.pb_d2.Name = "pb_d2";
+            this.pb_d2.Size = new System.Drawing.Size(47, 50);
+            this.pb_d2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_d2.TabIndex = 27;
+            this.pb_d2.TabStop = false;
+            // 
+            // pb_d1
+            // 
+            this.pb_d1.Image = global::GiocoDadiFerrari4H.Properties.Resources.Dado_6_norm;
+            this.pb_d1.Location = new System.Drawing.Point(123, 130);
+            this.pb_d1.Name = "pb_d1";
+            this.pb_d1.Size = new System.Drawing.Size(47, 48);
+            this.pb_d1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_d1.TabIndex = 22;
+            this.pb_d1.TabStop = false;
             // 
             // pb_ovest_turno
             // 
-            this.pb_ovest_turno.Image = global::GiocoDadiFerrari4H.Properties.Resources.Ovest_turno_normale;
-            this.pb_ovest_turno.Location = new System.Drawing.Point(17, 150);
+            this.pb_ovest_turno.Location = new System.Drawing.Point(17, 130);
             this.pb_ovest_turno.Name = "pb_ovest_turno";
+            this.pb_ovest_turno.Padding = new System.Windows.Forms.Padding(3);
             this.pb_ovest_turno.Size = new System.Drawing.Size(100, 100);
             this.pb_ovest_turno.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb_ovest_turno.TabIndex = 17;
@@ -317,9 +343,9 @@
             // 
             // pb_sud_turno
             // 
-            this.pb_sud_turno.Image = global::GiocoDadiFerrari4H.Properties.Resources.Sud_turno_normale;
-            this.pb_sud_turno.Location = new System.Drawing.Point(123, 256);
+            this.pb_sud_turno.Location = new System.Drawing.Point(123, 236);
             this.pb_sud_turno.Name = "pb_sud_turno";
+            this.pb_sud_turno.Padding = new System.Windows.Forms.Padding(3);
             this.pb_sud_turno.Size = new System.Drawing.Size(100, 100);
             this.pb_sud_turno.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb_sud_turno.TabIndex = 16;
@@ -327,9 +353,9 @@
             // 
             // pb_est_turno
             // 
-            this.pb_est_turno.Image = global::GiocoDadiFerrari4H.Properties.Resources.Est_turno_normale;
-            this.pb_est_turno.Location = new System.Drawing.Point(231, 150);
+            this.pb_est_turno.Location = new System.Drawing.Point(231, 130);
             this.pb_est_turno.Name = "pb_est_turno";
+            this.pb_est_turno.Padding = new System.Windows.Forms.Padding(3);
             this.pb_est_turno.Size = new System.Drawing.Size(100, 100);
             this.pb_est_turno.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb_est_turno.TabIndex = 15;
@@ -337,9 +363,9 @@
             // 
             // pb_nord_turno
             // 
-            this.pb_nord_turno.Image = global::GiocoDadiFerrari4H.Properties.Resources.Nord_turno_normale;
-            this.pb_nord_turno.Location = new System.Drawing.Point(123, 44);
+            this.pb_nord_turno.Location = new System.Drawing.Point(123, 24);
             this.pb_nord_turno.Name = "pb_nord_turno";
+            this.pb_nord_turno.Padding = new System.Windows.Forms.Padding(3);
             this.pb_nord_turno.Size = new System.Drawing.Size(100, 100);
             this.pb_nord_turno.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb_nord_turno.TabIndex = 14;
@@ -347,9 +373,10 @@
             // 
             // pb_nord
             // 
-            this.pb_nord.Image = global::GiocoDadiFerrari4H.Properties.Resources.Nord_normale_normale;
-            this.pb_nord.Location = new System.Drawing.Point(123, 44);
+            this.pb_nord.Image = ((System.Drawing.Image)(resources.GetObject("pb_nord.Image")));
+            this.pb_nord.Location = new System.Drawing.Point(123, 24);
             this.pb_nord.Name = "pb_nord";
+            this.pb_nord.Padding = new System.Windows.Forms.Padding(3);
             this.pb_nord.Size = new System.Drawing.Size(100, 100);
             this.pb_nord.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb_nord.TabIndex = 13;
@@ -357,9 +384,10 @@
             // 
             // pb_sud
             // 
-            this.pb_sud.Image = global::GiocoDadiFerrari4H.Properties.Resources.Sud_normale_normale;
-            this.pb_sud.Location = new System.Drawing.Point(123, 256);
+            this.pb_sud.Image = ((System.Drawing.Image)(resources.GetObject("pb_sud.Image")));
+            this.pb_sud.Location = new System.Drawing.Point(123, 236);
             this.pb_sud.Name = "pb_sud";
+            this.pb_sud.Padding = new System.Windows.Forms.Padding(3);
             this.pb_sud.Size = new System.Drawing.Size(100, 100);
             this.pb_sud.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb_sud.TabIndex = 12;
@@ -367,9 +395,10 @@
             // 
             // pb_ovest
             // 
-            this.pb_ovest.Image = global::GiocoDadiFerrari4H.Properties.Resources.Ovest_normale_normale;
-            this.pb_ovest.Location = new System.Drawing.Point(17, 150);
+            this.pb_ovest.Image = ((System.Drawing.Image)(resources.GetObject("pb_ovest.Image")));
+            this.pb_ovest.Location = new System.Drawing.Point(17, 130);
             this.pb_ovest.Name = "pb_ovest";
+            this.pb_ovest.Padding = new System.Windows.Forms.Padding(3);
             this.pb_ovest.Size = new System.Drawing.Size(100, 100);
             this.pb_ovest.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb_ovest.TabIndex = 11;
@@ -377,60 +406,28 @@
             // 
             // pb_est
             // 
-            this.pb_est.Image = global::GiocoDadiFerrari4H.Properties.Resources.Est_normale_normale;
-            this.pb_est.Location = new System.Drawing.Point(231, 150);
+            this.pb_est.Image = ((System.Drawing.Image)(resources.GetObject("pb_est.Image")));
+            this.pb_est.Location = new System.Drawing.Point(231, 130);
             this.pb_est.Name = "pb_est";
+            this.pb_est.Padding = new System.Windows.Forms.Padding(3);
             this.pb_est.Size = new System.Drawing.Size(100, 100);
             this.pb_est.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb_est.TabIndex = 10;
             this.pb_est.TabStop = false;
             // 
-            // pb_d1_1
-            // 
-            this.pb_d1_1.Image = global::GiocoDadiFerrari4H.Properties.Resources.Dado_1_norm;
-            this.pb_d1_1.Location = new System.Drawing.Point(123, 150);
-            this.pb_d1_1.Name = "pb_d1_1";
-            this.pb_d1_1.Size = new System.Drawing.Size(47, 48);
-            this.pb_d1_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pb_d1_1.TabIndex = 9;
-            this.pb_d1_1.TabStop = false;
-            // 
-            // pb_d2_1
-            // 
-            this.pb_d2_1.Image = global::GiocoDadiFerrari4H.Properties.Resources.Dado_1_norm;
-            this.pb_d2_1.Location = new System.Drawing.Point(176, 200);
-            this.pb_d2_1.Name = "pb_d2_1";
-            this.pb_d2_1.Size = new System.Drawing.Size(47, 50);
-            this.pb_d2_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pb_d2_1.TabIndex = 8;
-            this.pb_d2_1.TabStop = false;
-            // 
-            // tb_giocata
-            // 
-            this.tb_giocata.Location = new System.Drawing.Point(479, 212);
-            this.tb_giocata.Name = "tb_giocata";
-            this.tb_giocata.Size = new System.Drawing.Size(95, 20);
-            this.tb_giocata.TabIndex = 31;
-            // 
-            // FormNormale
+            // FormNormale1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.tb_giocata);
-            this.Controls.Add(this.tb_giro);
-            this.Controls.Add(this.groupBox1);
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.ClientSize = new System.Drawing.Size(800, 367);
+            this.Controls.Add(this.gb_giro);
+            this.Controls.Add(this.gb_class);
+            this.Controls.Add(this.btn_inizio);
+            this.Controls.Add(this.gb_temi);
             this.Controls.Add(this.btn_stop);
-            this.Controls.Add(this.pb_d2_6);
-            this.Controls.Add(this.pb_d2_5);
-            this.Controls.Add(this.pb_d2_4);
-            this.Controls.Add(this.pb_d2_3);
-            this.Controls.Add(this.pb_d2_2);
-            this.Controls.Add(this.pb_d1_6);
-            this.Controls.Add(this.pb_d1_5);
-            this.Controls.Add(this.pb_d1_4);
-            this.Controls.Add(this.pb_d1_3);
-            this.Controls.Add(this.pb_d1_2);
+            this.Controls.Add(this.pb_d2);
+            this.Controls.Add(this.pb_d1);
             this.Controls.Add(this.pb_ovest_turno);
             this.Controls.Add(this.pb_sud_turno);
             this.Controls.Add(this.pb_est_turno);
@@ -439,23 +436,15 @@
             this.Controls.Add(this.pb_sud);
             this.Controls.Add(this.pb_ovest);
             this.Controls.Add(this.pb_est);
-            this.Controls.Add(this.pb_d1_1);
-            this.Controls.Add(this.pb_d2_1);
-            this.Controls.Add(this.tb_class_partita);
-            this.Controls.Add(this.tb_class_turno);
-            this.Name = "FormNormale";
+            this.Name = "FormNormale1";
             this.Text = "FormNormale";
-            this.groupBox1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pb_d2_6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_d2_5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_d2_4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_d2_3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_d2_2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_d1_6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_d1_5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_d1_4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_d1_3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_d1_2)).EndInit();
+            this.gb_temi.ResumeLayout(false);
+            this.gb_class.ResumeLayout(false);
+            this.gb_class.PerformLayout();
+            this.gb_giro.ResumeLayout(false);
+            this.gb_giro.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_d2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_d1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_ovest_turno)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_sud_turno)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_est_turno)).EndInit();
@@ -464,10 +453,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pb_sud)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_ovest)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_est)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_d1_1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_d2_1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -478,8 +464,6 @@
         private System.ComponentModel.BackgroundWorker bgw_est;
         private System.ComponentModel.BackgroundWorker bgw_sud;
         private System.ComponentModel.BackgroundWorker bgw_ovest;
-        private System.Windows.Forms.PictureBox pb_d2_1;
-        private System.Windows.Forms.PictureBox pb_d1_1;
         private System.Windows.Forms.PictureBox pb_est;
         private System.Windows.Forms.PictureBox pb_ovest;
         private System.Windows.Forms.PictureBox pb_sud;
@@ -488,24 +472,27 @@
         private System.Windows.Forms.PictureBox pb_est_turno;
         private System.Windows.Forms.PictureBox pb_sud_turno;
         private System.Windows.Forms.PictureBox pb_ovest_turno;
-        private System.Windows.Forms.PictureBox pb_d1_2;
-        private System.Windows.Forms.PictureBox pb_d1_3;
-        private System.Windows.Forms.PictureBox pb_d1_4;
-        private System.Windows.Forms.PictureBox pb_d1_5;
-        private System.Windows.Forms.PictureBox pb_d1_6;
-        private System.Windows.Forms.PictureBox pb_d2_2;
-        private System.Windows.Forms.PictureBox pb_d2_3;
-        private System.Windows.Forms.PictureBox pb_d2_4;
-        private System.Windows.Forms.PictureBox pb_d2_5;
-        private System.Windows.Forms.PictureBox pb_d2_6;
+        private System.Windows.Forms.PictureBox pb_d1;
+        private System.Windows.Forms.PictureBox pb_d2;
         private System.Windows.Forms.Button btn_stop;
         private System.Windows.Forms.TextBox tb_giro;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox gb_temi;
         private System.Windows.Forms.Button btn_default;
         private System.Windows.Forms.Button btn_lotr;
         private System.Windows.Forms.Button btn_hp;
         private System.Windows.Forms.Button btn_pirati;
-        private System.Windows.Forms.TextBox tb_giocata;
+        private System.Windows.Forms.Button btn_inizio;
+        private System.Windows.Forms.TextBox tb_giro_lotr;
+        private System.Windows.Forms.TextBox tb_giro_hp;
+        private System.Windows.Forms.TextBox tb_giro_pirati;
+        private System.Windows.Forms.TextBox tb_class_turno_lotr;
+        private System.Windows.Forms.TextBox tb_class_turno_hp;
+        private System.Windows.Forms.TextBox tb_class_turno_pirati;
+        private System.Windows.Forms.TextBox tb_class_partita_lotr;
+        private System.Windows.Forms.TextBox tb_class_partita_hp;
+        private System.Windows.Forms.TextBox tb_class_partita_pirati;
+        private System.Windows.Forms.GroupBox gb_class;
+        private System.Windows.Forms.GroupBox gb_giro;
     }
 }
 

@@ -16,7 +16,7 @@ namespace GiocoDadiFerrari4H
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormNormale());
+            Application.Run(new FormNormale1());
         }
     }
 }

@@ -118,46 +118,139 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Est_turno_normale" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Est_turno_normale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ovest_turno_normale" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ovest_turno_normale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Sud_turno_normale" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sud_turno_normale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Est_normale_normale" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Est_normale_normale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ovest_normale_normale" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ovest_normale_normale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Nord_normale_normale" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Nord_normale_normale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Sud_normale_normale" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sud_normale_normale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Nord_turno_normale" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Nord_turno_normale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Dado_1_norm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Dado_1_norm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Dado_2_norm" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Dado_2_norm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Dado_3_norm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Dado_3_norm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Dado_6_norm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dado_6_norm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Dado_4_norm" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Dado_4_norm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Dado_1_norm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dado_1_norm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Dado_5_norm" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Dado_5_norm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Dado_6_norm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Dado_6_norm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Dado_3_norm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dado_3_norm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Elrond" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Elrond1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Galadriel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Galadriel1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gandalf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gandalf1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sauron" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sauron1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barbossa_turno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barbossa_turno.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Elisabeth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Elisabeth.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Elisabeth_turno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Elisabeth_turno.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Elrond_turno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Elrond_turno.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Galadriel_turno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Galadriel_turno.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gandalf_turno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gandalf_turno.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gryffindor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gryffindor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gryffindor_turno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gryffindor_turno.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hufflepuff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hufflepuff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hufflepuff_turno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hufflepuff_turno.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ravenclaw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ravenclaw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ravenclaw_turno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ravenclaw_turno.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sauron_turno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sauron_turno.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Slytherin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Slytherin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Slytherin_turno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Slytherin_turno.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sparrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sparrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sparrow_turno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sparrow_turno.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Will" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Will.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Will_turno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Will_turno.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Est_normale_normale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Est_normale_normale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Est_turno_normale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Est_turno_normale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hp_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hp_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lotr_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lotr_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nord_normale_normale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nord_normale_normale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nord_turno_normale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nord_turno_normale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ovest_normale_normale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ovest_normale_normale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ovest_turno_normale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ovest_turno_normale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pirati_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pirati_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sud_normale_normale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sud_normale_normale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sud_turno_normale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sud_turno_normale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barbossa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barbossa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="podio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\podio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="podio_hp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\podio_hp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="podio_lotr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\podio_lotr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="podio_pirati" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\podio_pirati.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

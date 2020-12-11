@@ -91,30 +91,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Nord_normale_normale.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Nord_turno_normale.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Est_normale_normale.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Est_turno_normale.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Sud_normale_normale.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Sud_turno_normale.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Ovest_normale_normale.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Ovest_turno_normale.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Dado_1_norm.png" />
   </ItemGroup>
   <ItemGroup>
@@ -131,6 +107,55 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Dado_6_norm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sud_turno_normale.png" />
+    <None Include="Resources\Sud_normale_normale.png" />
+    <None Include="Resources\Sparrow_turno.png" />
+    <None Include="Resources\Sauron_turno.png" />
+    <None Include="Resources\Gandalf_turno.png" />
+    <None Include="Resources\Galadriel_turno.png" />
+    <None Include="Resources\Elrond_turno.png" />
+    <None Include="Resources\Will_turno.png" />
+    <None Include="Resources\Will.png" />
+    <None Include="Resources\Sparrow.png" />
+    <None Include="Resources\Elisabeth_turno.png" />
+    <None Include="Resources\Elisabeth.png" />
+    <None Include="Resources\Barbossa_turno.png" />
+    <None Include="Resources\Barbossa.png" />
+    <Content Include="Resources\Elrond.png" />
+    <None Include="Resources\Est_normale_normale.png" />
+    <None Include="Resources\Est_turno_normale.png" />
+    <Content Include="Resources\Gryffindor.png" />
+    <Content Include="Resources\Gryffindor_turno.png" />
+    <None Include="Resources\hp_back.png" />
+    <Content Include="Resources\Hufflepuff.png" />
+    <Content Include="Resources\Hufflepuff_turno.png" />
+    <None Include="Resources\Nord_normale_normale.png" />
+    <None Include="Resources\Nord_turno_normale.png" />
+    <None Include="Resources\Ovest_normale_normale.png" />
+    <None Include="Resources\Ovest_turno_normale.png" />
+    <None Include="Resources\pirati_back.png" />
+    <None Include="Resources\lotr_back.png" />
+    <None Include="Resources\podio.png" />
+    <None Include="Resources\podio_lotr.png" />
+    <None Include="Resources\podio_pirati.png" />
+    <None Include="Resources\podio_hp.png" />
+    <Content Include="Resources\Ravenclaw.png" />
+    <Content Include="Resources\Ravenclaw_turno.png" />
+    <Content Include="Resources\Slytherin.png" />
+    <Content Include="Resources\Slytherin_turno.png" />
+    <None Include="Resources\Sauron_turno1.png" />
+    <None Include="Resources\Sauron1.png" />
+    <None Include="Resources\Gandalf_turno1.png" />
+    <None Include="Resources\Gandalf1.png" />
+    <None Include="Resources\Galadriel_turno1.png" />
+    <None Include="Resources\Galadriel1.png" />
+    <None Include="Resources\Elrond_turno1.png" />
+    <None Include="Resources\Elrond1.png" />
+    <Content Include="Resources\Galadriel.png" />
+    <Content Include="Resources\Gandalf.png" />
+    <Content Include="Resources\Sauron.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
